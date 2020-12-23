@@ -3,7 +3,7 @@
 #
 # Copyright (c) 2018-2020 Florent Kermarrec <florent@enjoy-digital.fr>
 # SPDX-License-Identifier: BSD-2-Clause
-
+from migen.genlib.resetsync import AsyncResetSynchronizer
 from migen import *
 
 from litex.soc.cores.clock.common import *
